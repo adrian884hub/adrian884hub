@@ -1,4 +1,4 @@
-Hola, soy Adrián 
+Hola, soy Adrián Desarrollador de software  web | Python + IA | Ecommerce y plataformas propias.
 
 Desarrollo **páginas web y herramientas con Python e inteligencia artificial**: de la idea a un sitio funcionando en internet.
 
