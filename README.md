@@ -6,7 +6,7 @@ Desarrollo **páginas web y herramientas con Python e inteligencia artificial**:
 
 ### <ins>Proyecto destacado</ins>
 
-**[Mendu Market](https://mendumarket.com.ar)**: plataforma que genera con IA ebooks completos y sus páginas de venta, con cobros por Mercado Pago, panel de administración y servidor propio.
+**[Mendu Market](https://mendumarket.com.ar)**: plataforma que genera con IA ebooks completos y sus páginas de venta, con cobros por Mercado Pago, panel de administración y servidor propio. Los ebooks y las páginas de venta se pueden traducir a otros idiomas, incluido el proceso de pago.
 
 Sitio: [mendumarket.com.ar](https://mendumarket.com.ar) · Código: [ver el proyecto](https://github.com/adrian884hub/mendu-market-portfolio)
 
