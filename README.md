@@ -4,7 +4,7 @@ Desarrollador de software web | Python + IA | Ecommerce y plataformas propias | 
 
 Desarrollo **páginas web y herramientas con Python e inteligencia artificial**: de la idea a un sitio funcionando en internet. También hago **creación y soporte de marketing digital y redes**: páginas de Facebook e Instagram, imágenes, textos y videos para publicidad.
 
-Mendoza, Argentina · [Mi página](https://adrian884hub.github.io/)
+Mendoza, Argentina 
 
 ---
 
