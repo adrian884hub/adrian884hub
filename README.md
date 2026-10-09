@@ -1,95 +1,95 @@
 # Adrián Pereyra
 
-Desarrollador de software web | Python + IA | Ecommerce y plataformas propias | Marketing digital y redes
+Web software developer | Python + AI | E-commerce and custom platforms | Digital and content marketing
 
-Desarrollo **páginas web y herramientas con Python e inteligencia artificial**: de la idea a un sitio funcionando en internet. También hago **creación y soporte de marketing digital y redes**: páginas de Facebook e Instagram, imágenes, textos y videos para publicidad.
+I build **websites and tools with Python and artificial intelligence**, from the idea to a site running online. I also create and manage **digital and content marketing**: Facebook and Instagram pages, images, copy and videos for advertising.
 
-Mendoza, Argentina 
+Mendoza, Argentina
 
 ---
 
-## Proyecto destacado: MenduEbook
+## Featured project: MenduEbook
 
 [![MenduEbook](imagenes/menduebook.jpg)](https://mendumarket.com.ar)
 
-**Plataforma que crea con IA un ebook completo en PDF y su página de venta, listos para vender.** El cliente escribe un tema y en minutos recibe el libro diseñado (guía, recetario o libro para colorear), la landing de venta y las instrucciones para publicarla. Cobra con Mercado Pago, tiene panel de administración, traduce a otros idiomas y corre en un servidor propio. Ya generó más de 60 libros.
+**A platform that uses AI to create a complete PDF ebook and its sales page, ready to sell.** The customer enters a topic and within minutes receives the designed book (guide, recipe book or coloring book), the sales landing page and instructions to publish it. It takes payments through Mercado Pago, has an admin panel, translates into other languages and runs on its own server. It has already generated more than 60 books.
 
-**Python · Flask · API de Claude · API de OpenAI · SQLite · Mercado Pago · Login con Google · Servidor Ubuntu**
+**Python · Flask · Claude API · OpenAI API · SQLite · Mercado Pago · Google login · Ubuntu server**
 
-[Ver el sitio](https://mendumarket.com.ar) · [Ver capturas, ejemplos y código](https://github.com/adrian884hub/mendu-market-portfolio)
+[Visit the site](https://mendumarket.com.ar) · [Screenshots, examples and code](https://github.com/adrian884hub/mendu-market-portfolio)
 
 ---
 
-## Otros proyectos
+## Other projects
 
-### GastoRegistrado: libreta automática de gastos
+### GastoRegistrado: automatic expense log
 ![GastoRegistrado](imagenes/gastoregistrado.jpg)
 
-App web que registra sola las compras y pagos de todas las billeteras virtuales, leyendo las notificaciones del celular, y los muestra en una sola lista con fecha, importe, comercio y billetera. Se instala en el celular como app.
+A web app that automatically records purchases and payments from every digital wallet by reading the phone's notifications, and shows them in a single list with date, amount, merchant and wallet. It installs on the phone as an app.
 
-**Next.js · TypeScript · Supabase (PostgreSQL) · Tailwind CSS · Vitest · Vercel** · *Código privado (tiene datos personales). Un extracto real: la parte que lee el importe de cualquier notificación.*
+**Next.js · TypeScript · Supabase (PostgreSQL) · Tailwind CSS · Vitest · Vercel** · *Private code (it handles personal data). A real excerpt: the part that reads the amount from any notification.*
 
 ```ts
 // "$ 1.000", "$400", "$ 300,00", "US$ 20", "U$S 20"
 const IMPORTE = /(US\$|U\$S|USD|\$)\s?(\d{1,3}(?:\.\d{3})+(?:,\d{1,2})?|\d+(?:[.,]\d{1,2})?)/i;
 
 export type TipoLectura =
-  | "gasto"        // plata que sale hacia otra persona o comercio
-  | "propia"       // envío entre mis propias billeteras: no es gasto
-  | "entrada"      // plata que entra
-  | "dudosa"       // tiene importe pero no se sabe si entra o sale
-  | "sin_importe"; // promociones y avisos: se ignora
+  | "gasto"        // money going out to another person or merchant
+  | "propia"       // transfer between my own wallets: not an expense
+  | "entrada"      // money coming in
+  | "dudosa"       // has an amount but direction is unclear
+  | "sin_importe"; // promotions and notices: ignored
 ```
 
-### Restaurante Los Olivos: sitio web para un negocio gastronómico
+### Restaurante Los Olivos: website for a restaurant
 [![Restaurante Los Olivos](imagenes/restaurante-los-olivos.jpg)](https://adrian884hub.github.io/restaurante-los-olivos/)
 
-Página de muestra para un restaurante de Mendoza: carrusel de fotos, menú por pestañas, reservas que llegan por WhatsApp y diseño para celular. Incluye casos de prueba y reporte de errores (QA).
+Sample site for a restaurant in Mendoza: photo carousel, tabbed menu, reservations sent through WhatsApp and mobile-first design. Includes test cases and bug reports (QA).
 
-**HTML · CSS · JavaScript** · [Ver la página](https://adrian884hub.github.io/restaurante-los-olivos/) · [Código](https://github.com/adrian884hub/restaurante-los-olivos)
+**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/restaurante-los-olivos/) · [Code](https://github.com/adrian884hub/restaurante-los-olivos)
 
-### 30 Recetas Keto: landing de venta de un ebook
-[![30 Recetas Keto](imagenes/recetas-keto.jpg)](https://adrian884hub.github.io/recetas-keto/)
+### 30 Keto Recipes: ebook sales landing page
+[![30 Keto Recipes](imagenes/recetas-keto.jpg)](https://adrian884hub.github.io/recetas-keto/)
 
-Página de venta para un ebook de recetas, pensada para convertir visitas en compras.
+Sales page for a recipe ebook, designed to turn visits into purchases.
 
-**HTML · CSS · JavaScript** · [Ver la página](https://adrian884hub.github.io/recetas-keto/) · [Código](https://github.com/adrian884hub/recetas-keto)
+**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/recetas-keto/) · [Code](https://github.com/adrian884hub/recetas-keto)
 
-### Centro de ayuda de Mendu Market
-[![Centro de ayuda](imagenes/faq-mendu-market.jpg)](https://adrian884hub.github.io/faq-mendumarket./)
+### Mendu Market help center
+[![Help center](imagenes/faq-mendu-market.jpg)](https://adrian884hub.github.io/faq-mendumarket./)
 
-Preguntas frecuentes sobre pagos, envíos y cambios para la tienda online Mendu Market, con contacto por WhatsApp.
+Frequently asked questions about payments, shipping and returns for the Mendu Market online store, with WhatsApp contact.
 
-**HTML · CSS · JavaScript** · [Ver la página](https://adrian884hub.github.io/faq-mendumarket./) · [Código](https://github.com/adrian884hub/faq-mendumarket.)
+**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/faq-mendumarket./) · [Code](https://github.com/adrian884hub/faq-mendumarket.)
 
-### Indicadores para TradingView
-![Indicador Zonas Rebote + Volumen funcionando en TradingView](imagenes/indicador-tradingview.jpg)
+### TradingView indicators
+![Zonas Rebote + Volumen indicator running on TradingView](imagenes/indicador-tradingview.jpg)
 
-Dos indicadores de análisis técnico en Pine Script: detección automática de soportes y resistencias con puntaje, perfil de volumen, señales de compra y venta por confluencia, Stop Loss y Take Profit automáticos y mapa de calor de precios.
+Two technical analysis indicators in Pine Script: automatic support and resistance detection with scoring, volume profile, buy and sell signals by confluence, automatic Stop Loss and Take Profit, and a price heat map.
 
-**Pine Script v5** · [Zonas Rebote + Volumen](https://github.com/adrian884hub/indicador-zonas-rebote-volumen) · [SR Confluencia + Mapa de Calor](https://github.com/adrian884hub/indicadores-tradingview-1-)
+**Pine Script v5** · [Bounce Zones + Volume](https://github.com/adrian884hub/indicador-zonas-rebote-volumen) · [SR Confluence + Heat Map](https://github.com/adrian884hub/indicadores-tradingview-1-)
 
-### Game Booster: limpiador y optimizador de PC
-<img src="imagenes/game-booster.png" alt="Ícono de Game Booster" width="160">
+### Game Booster: PC cleaner and optimizer
+<img src="imagenes/game-booster.png" alt="Game Booster icon" width="160">
 
-Programa de escritorio que optimiza la PC para jugar: limpia archivos temporales, cierra procesos en segundo plano y libera memoria con un solo botón.
+Desktop program that prepares the PC for gaming: cleans temporary files, closes background processes and frees memory with a single button.
 
-**Python · Tkinter · PyInstaller** · [Código](https://github.com/adrian884hub/game-booster)
+**Python · Tkinter · PyInstaller** · [Code](https://github.com/adrian884hub/game-booster)
 
 ---
 
-## Qué hago
+## What I do
 
-- Sitios web y páginas de venta
-- Plataformas con cobros online (Mercado Pago)
-- Herramientas y automatizaciones en Python
-- Integraciones con inteligencia artificial (Claude, OpenAI)
-- Creación y soporte de marketing digital y redes
-- Indicadores para TradingView (Pine Script)
+- Websites and sales pages
+- Platforms with online payments (Mercado Pago)
+- Python tools and automation
+- Artificial intelligence integrations (Claude, OpenAI)
+- Digital and content marketing for social media
+- TradingView indicators (Pine Script)
 
-## Contacto
+## Contact
 
-**Disponible para proyectos y trabajos.** Escribime y lo charlamos.
+**Available for projects and work.** Get in touch and let's talk.
 
 - Email: [adrianpereyra884@gmail.com](mailto:adrianpereyra884@gmail.com)
 - WhatsApp: [+54 261 637-3263](https://wa.me/542616373263)
