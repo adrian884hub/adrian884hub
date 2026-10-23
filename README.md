@@ -64,6 +64,12 @@ export type TipoLectura =
 
 Answers customers of my online store and of MenduEbook on WhatsApp, day and night. It replies from real FAQs taken from both websites and doesn't make things up. When someone needs a person (a complaint, a quote, a job offer), the AI collects their name and reason and I get a Telegram alert with a one-tap link to reply. It uses the official WhatsApp Cloud API and runs on my own server with HTTPS.
 
+A real conversation from my own phone (in Spanish): someone asks for a bot, the assistant introduces itself and remembers the earlier chat, and then it passes the request to me.
+
+| 1. Asking for a bot | 2. It introduces itself | 3. It passes the request to me |
+|:---:|:---:|:---:|
+| <img src="imagenes/bot-charla-1.jpg" alt="A customer asks for a bot for their business and the assistant asks for their name and what the business does" width="240"> | <img src="imagenes/bot-charla-2.jpg" alt="The assistant introduces itself and picks up the earlier conversation" width="240"> | <img src="imagenes/bot-charla-3.jpg" alt="The assistant tells the customer that Adrián was notified and will write to them" width="240"> |
+
 **Try it:** [message the bot on WhatsApp](https://wa.me/5492612344712)
 
 **Python · Flask · Claude API (tool use) · WhatsApp Cloud API · Telegram Bot API · SQLite · Ubuntu server** · *Private code. A real excerpt: the tool the AI uses to hand a conversation over to me.*
