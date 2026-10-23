@@ -1,193 +1,146 @@
 # Adrián Pereyra
 
-Web software developer | Python + AI | E-commerce and custom platforms | Digital and content marketing
+**Desarrollador web en Mendoza.** Hago páginas, tiendas online, bots de WhatsApp y herramientas con inteligencia artificial, desde la idea hasta la página andando. También armo el marketing para redes: imágenes, textos y videos.
 
-I build **websites and tools with Python and artificial intelligence**, from the idea to a site running online. I also create and manage **digital and content marketing**: Facebook and Instagram pages, images, copy and videos for advertising.
+> **In English:** Web developer in Mendoza, Argentina. I build websites, online stores, WhatsApp bots and AI-powered tools with Python, from the idea to a site running online. Open to projects and remote work.
 
-Mendoza, Argentina
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Escribime-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/542616373263) [![Mail](https://img.shields.io/badge/Mail-adrianpereyra884%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianpereyra884@gmail.com) [![Mi página](https://img.shields.io/badge/Mi_p%C3%A1gina-adrian884hub.github.io-24292F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adrian884hub.github.io)
 
----
+<sub>Python · Flask · Claude · OpenAI · Next.js · Mercado Pago · WhatsApp Cloud API · HTML · CSS · JavaScript</sub>
 
-## Featured projects
+## Proyectos
 
-### MenduEbook: AI ebooks ready to sell
+<sub>Tocá la foto para ver el proyecto, o **Ver más** para saber qué hace.</sub>
 
-[![MenduEbook](imagenes/menduebook.jpg)](https://mendumarket.com.ar)
+<table>
+<tr>
+<td align="center" valign="top" width="25%">
+<a href="https://mendumarket.com.ar" title="MenduEbook: escribís un tema y la IA arma el libro en PDF y su página de venta"><img src="imagenes/tarjetas/menduebook.jpg" alt="MenduEbook" width="180"></a>
+<br><b>MenduEbook</b>
+<br><sub>Libros con IA, listos para vender</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>El cliente escribe un tema y en minutos recibe el libro en PDF (guía, recetario o para colorear), la página de venta y cómo publicarlo. Cobra con Mercado Pago y ya generó más de 60 libros.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · OpenAI · Mercado Pago</sub></p>
+<p align="left"><a href="https://mendumarket.com.ar">Ver la página</a> · <a href="https://github.com/adrian884hub/mendu-market-portfolio">Capturas y ejemplos</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://mendumarket.com" title="Mendu Market: tienda online con más de 5.000 productos y pago con Mercado Pago"><img src="imagenes/tarjetas/mendumarket-tienda.jpg" alt="Mendu Market" width="180"></a>
+<br><b>Mendu Market</b>
+<br><sub>Tienda online hecha desde cero</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Más de 5.000 productos de mayoristas que se actualizan solos, pago con Mercado Pago y un panel para manejar los pedidos. El número de seguimiento le llega solo al cliente por mail.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · Tailwind CSS · Mercado Pago</sub></p>
+<p align="left"><a href="https://mendumarket.com">Ver la tienda</a> · <a href="https://github.com/adrian884hub/mendumarket-tienda-portfolio">Capturas y detalles</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://github.com/adrian884hub/mendumarket-generador-publicaciones" title="Generador de posteos: de un libro a imágenes, videos y textos para redes"><img src="imagenes/tarjetas/generador-publicaciones.jpg" alt="Generador de posteos" width="180"></a>
+<br><b>Generador de posteos</b>
+<br><sub>De un libro a posteos y videos</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Convierte un libro en PDF en publicaciones para redes en pocos minutos: imágenes para el feed y las historias, videos verticales para Reels y TikTok con voz con acento argentino y música, y el texto de cada red.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · OpenAI · FFmpeg</sub></p>
+<p align="left"><a href="https://github.com/adrian884hub/mendumarket-generador-publicaciones">Ejemplos y videos</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://wa.me/5492612344712" title="Bot de Mendu: asistente de WhatsApp que atiende a los clientes día y noche. Tocá para probarlo"><img src="imagenes/tarjetas/bot-mendu.jpg" alt="Bot de Mendu" width="180"></a>
+<br><b>Bot de Mendu</b>
+<br><sub>Responde WhatsApp día y noche</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Atiende a los clientes de la tienda y de MenduEbook de día y de noche, con las preguntas frecuentes reales y sin inventar. Si alguien necesita una persona, me avisa por Telegram con un link para responderle.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · WhatsApp Cloud API · Telegram</sub></p>
+<p align="left"><a href="https://wa.me/5492612344712">Probalo en WhatsApp</a> · Charla real: <a href="imagenes/bot-charla-1.jpg">1</a> · <a href="imagenes/bot-charla-2.jpg">2</a> · <a href="imagenes/bot-charla-3.jpg">3</a></p>
+</details>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%">
+<a href="https://wa.me/542616373263?text=Hola%20Adri%C3%A1n%2C%20quiero%20probar%20el%20bot%20de%20turnos" title="Turnos para peluquerías: el asistente de WhatsApp da, consulta y cancela turnos solo"><img src="imagenes/tarjetas/turnos-peluqueria.jpg" alt="Turnos para peluquerías" width="180"></a>
+<br><b>Turnos para peluquerías</b>
+<br><sub>Reservas por WhatsApp, solas</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Responde precios y horarios, da, consulta y cancela turnos, y le avisa al dueño por Telegram cuando un cliente pide hablar con una persona. Los horarios libres los calcula el programa, así nunca ofrece uno ocupado.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · WhatsApp Cloud API · Telegram</sub></p>
+<p align="left"><a href="https://wa.me/542616373263?text=Hola%20Adri%C3%A1n%2C%20quiero%20probar%20el%20bot%20de%20turnos">Pedí una prueba</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="imagenes/presupuestos-voz.jpg" title="Presupuestos por voz: dictás el trabajo en el celular y sale el presupuesto en PDF"><img src="imagenes/tarjetas/presupuestos-voz.jpg" alt="Presupuestos por voz" width="180"></a>
+<br><b>Presupuestos por voz</b>
+<br><sub>Dictás el trabajo, sale el PDF</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Para plomeros, electricistas, gasistas y pintores. Dictan el trabajo en el celular, como hablan, y la IA arma el presupuesto con materiales, mano de obra y total, listo para mandar por WhatsApp. Nunca inventa precios: lo que no se dijo queda marcado.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · OpenAI (voz a texto) · ReportLab</sub></p>
+<p align="left"><a href="imagenes/presupuestos-voz.jpg">Ver un presupuesto de ejemplo</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="imagenes/gastoregistrado.jpg" title="GastoRegistrado: anota solo los gastos de todas tus billeteras virtuales"><img src="imagenes/tarjetas/gastoregistrado.jpg" alt="GastoRegistrado" width="180"></a>
+<br><b>GastoRegistrado</b>
+<br><sub>Tus gastos, anotados solos</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Lee las notificaciones del celular y anota solas las compras y los pagos de todas las billeteras virtuales, en una sola lista con fecha, monto, comercio y billetera. Se instala en el celular como una app.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Next.js · TypeScript · Supabase · Vercel</sub></p>
+<p align="left"><a href="imagenes/gastoregistrado.jpg">Ver captura</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://adrian884hub.github.io/restaurante-los-olivos/" title="Restaurante Los Olivos: página para un restaurante de Mendoza, con reservas por WhatsApp"><img src="imagenes/tarjetas/restaurante-los-olivos.jpg" alt="Restaurante Los Olivos" width="180"></a>
+<br><b>Restaurante Los Olivos</b>
+<br><sub>Página para un restaurante</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Página de muestra para un restaurante de Mendoza: fotos que pasan solas, menú por pestañas, reservas por WhatsApp y pensada para el celular. Incluye pruebas y reportes de errores.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> HTML · CSS · JavaScript</sub></p>
+<p align="left"><a href="https://adrian884hub.github.io/restaurante-los-olivos/">Ver la página</a> · <a href="https://github.com/adrian884hub/restaurante-los-olivos">Código</a></p>
+</details>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%">
+<a href="https://adrian884hub.github.io/recetas-keto/" title="30 Recetas Keto: página para vender un libro de recetas"><img src="imagenes/tarjetas/recetas-keto.jpg" alt="30 Recetas Keto" width="180"></a>
+<br><b>30 Recetas Keto</b>
+<br><sub>Página de venta de un ebook</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Página para vender un libro de recetas, pensada para que la visita termine en una compra.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> HTML · CSS · JavaScript</sub></p>
+<p align="left"><a href="https://adrian884hub.github.io/recetas-keto/">Ver la página</a> · <a href="https://github.com/adrian884hub/recetas-keto">Código</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://adrian884hub.github.io/faq-mendumarket./" title="Centro de ayuda: preguntas frecuentes sobre pagos, envíos y devoluciones de la tienda"><img src="imagenes/tarjetas/centro-de-ayuda.jpg" alt="Centro de ayuda" width="180"></a>
+<br><b>Centro de ayuda</b>
+<br><sub>Preguntas frecuentes de la tienda</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Respuestas sobre pagos, envíos, cambios y devoluciones de Mendu Market, con contacto por WhatsApp.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> HTML · CSS · JavaScript</sub></p>
+<p align="left"><a href="https://adrian884hub.github.io/faq-mendumarket./">Ver la página</a> · <a href="https://github.com/adrian884hub/faq-mendumarket.">Código</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://github.com/adrian884hub/indicador-zonas-rebote-volumen" title="Indicadores de trading para TradingView: soportes, resistencias y señales de compra y venta"><img src="imagenes/tarjetas/indicadores-tradingview.jpg" alt="Indicadores de trading" width="180"></a>
+<br><b>Indicadores de trading</b>
+<br><sub>Señales de compra y venta</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Dos indicadores para TradingView: encuentran solos los soportes y las resistencias, muestran el volumen por precio, dan señales de compra y venta, y marcan dónde poner el Stop Loss y el Take Profit.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Pine Script</sub></p>
+<p align="left"><a href="https://github.com/adrian884hub/indicador-zonas-rebote-volumen">Zonas de rebote + volumen</a> · <a href="https://github.com/adrian884hub/indicadores-tradingview-1-">Confluencia + mapa de calor</a></p>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="https://github.com/adrian884hub/game-booster" title="Game Booster: deja la PC lista para jugar con un solo botón"><img src="imagenes/tarjetas/game-booster.jpg" alt="Game Booster" width="180"></a>
+<br><b>Game Booster</b>
+<br><sub>La PC lista para jugar</sub>
+<details><summary>Ver más</summary>
+<p align="left"><sub>Programa para la PC que borra archivos temporales, cierra lo que corre por detrás y libera memoria con un solo botón.</sub></p>
+<p align="left"><sub><b>Hecho con:</b> Python · Tkinter</sub></p>
+<p align="left"><a href="https://github.com/adrian884hub/game-booster">Código</a></p>
+</details>
+</td>
+</tr>
+</table>
 
-**A platform that uses AI to create a complete PDF ebook and its sales page, ready to sell.** The customer enters a topic and within minutes receives the designed book (guide, recipe book or coloring book), the sales landing page and instructions to publish it. It takes payments through Mercado Pago, has an admin panel, translates into other languages and runs on its own server. It has already generated more than 60 books.
+## ¿Querés algo así para tu negocio?
 
-**Python · Flask · Claude API · OpenAI API · SQLite · Mercado Pago · Google login · Ubuntu server**
-
-[Visit the site](https://mendumarket.com.ar) · [Screenshots, examples and code](https://github.com/adrian884hub/mendu-market-portfolio)
-
-### Mendu Market: online store built from scratch
-
-[![Mendu Market online store](imagenes/mendumarket-tienda.jpg)](https://mendumarket.com)
-
-**An online store with more than 5,800 products from wholesalers, kept up to date automatically, with Mercado Pago payments and a back office to run the business.** Customers search with instant suggestions, add to the cart and pay without creating an account. The owner passes each order to the wholesaler with one click, and the tracking number reaches the customer by email on its own. Mobile-first, with dark mode.
-
-**Python · Flask · Tailwind CSS · SQLite · Mercado Pago · Wholesaler REST API · Ubuntu server · Nginx**
-
-[Visit the store](https://mendumarket.com) · [Screenshots and details](https://github.com/adrian884hub/mendumarket-tienda-portfolio)
-
----
-
-## Other projects
-
-### Social post generator: from a book to posts and videos
-[![Social post generator](imagenes/generador-publicaciones.jpg)](https://github.com/adrian884hub/mendumarket-generador-publicaciones)
-
-An in-house tool for MenduEbook that turns a PDF book into posts ready for social media in a few minutes: feed and story images, vertical videos for Reels and TikTok with an Argentine-accent voice-over and music, and the copy for each network.
-
-**Python · Flask · OpenAI (text and images) · Pillow · FFmpeg** · [Examples and videos](https://github.com/adrian884hub/mendumarket-generador-publicaciones)
-
-### GastoRegistrado: automatic expense log
-![GastoRegistrado](imagenes/gastoregistrado.jpg)
-
-A web app that automatically records purchases and payments from every digital wallet by reading the phone's notifications, and shows them in a single list with date, amount, merchant and wallet. It installs on the phone as an app.
-
-**Next.js · TypeScript · Supabase (PostgreSQL) · Tailwind CSS · Vitest · Vercel** · *Private code (it handles personal data). A real excerpt: the part that reads the amount from any notification.*
-
-```ts
-// "$ 1.000", "$400", "$ 300,00", "US$ 20", "U$S 20"
-const IMPORTE = /(US\$|U\$S|USD|\$)\s?(\d{1,3}(?:\.\d{3})+(?:,\d{1,2})?|\d+(?:[.,]\d{1,2})?)/i;
-
-export type TipoLectura =
-  | "gasto"        // money going out to another person or merchant
-  | "propia"       // transfer between my own wallets: not an expense
-  | "entrada"      // money coming in
-  | "dudosa"       // has an amount but direction is unclear
-  | "sin_importe"; // promotions and notices: ignored
-```
-
-### Mendu bot: 24/7 WhatsApp assistant for my stores
-
-Answers customers of my online store and of MenduEbook on WhatsApp, day and night. It replies from real FAQs taken from both websites and doesn't make things up. When someone needs a person (a complaint, a quote, a job offer), the AI collects their name and reason and I get a Telegram alert with a one-tap link to reply. It uses the official WhatsApp Cloud API and runs on my own server with HTTPS.
-
-A real conversation from my own phone (in Spanish): someone asks for a bot, the assistant introduces itself and remembers the earlier chat, and then it passes the request to me.
-
-| 1. Asking for a bot | 2. It introduces itself | 3. It passes the request to me |
-|:---:|:---:|:---:|
-| <img src="imagenes/bot-charla-1.jpg" alt="A customer asks for a bot for their business and the assistant asks for their name and what the business does" width="240"> | <img src="imagenes/bot-charla-2.jpg" alt="The assistant introduces itself and picks up the earlier conversation" width="240"> | <img src="imagenes/bot-charla-3.jpg" alt="The assistant tells the customer that Adrián was notified and will write to them" width="240"> |
-
-**Try it:** [message the bot on WhatsApp](https://wa.me/5492612344712)
-
-**Python · Flask · Claude API (tool use) · WhatsApp Cloud API · Telegram Bot API · SQLite · Ubuntu server** · *Private code. A real excerpt: the tool the AI uses to hand a conversation over to me.*
-
-```python
-HERRAMIENTAS = [
-    {
-        "name": "avisar_a_adrian",
-        "description": ("Le avisa a Adrián para que responda él. Usala si no sabés la respuesta, si hay una "
-                        "queja o un problema con una compra, si piden presupuesto, si alguien quiere una "
-                        "página, un bot o marketing, si es un reclutador, o si piden hablar con una persona."),
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "motivo": {"type": "string", "description": "Resumen corto de lo que necesita"},
-                "area": {"type": "string", "enum": AREAS,
-                         "description": "mendumarket = tienda, menduebook = ebooks, "
-                                        "servicios = páginas, bots, marketing o trabajo, otro = lo demás"},
-                "nombre": {"type": "string", "description": "Nombre de la persona, si lo dijo"},
-            },
-            "required": ["motivo", "area"],
-        },
-    },
-]
-```
-
-### Booking assistant for barbershops on WhatsApp
-
-A WhatsApp assistant for barbershops and hair salons. It answers prices and opening hours, books, checks and cancels appointments on its own, and alerts the owner on Telegram when a customer asks for a person. The program, not the AI, calculates the free time slots, so it never offers a time that is already taken. Every incoming message is checked against Meta's signature. It runs on my server with a demo business, ready for its first salon.
-
-A real test conversation (in Spanish):
-
-> **Customer:** quiero un turno para corte el sábado a las 11, soy adrian
->
-> **Assistant:** ¡Listo, Adrian! Tu turno quedó reservado para el sábado 17/10 a las 11:00 para Corte de pelo, con un precio de $8.000. Te esperamos en Calle Ejemplo 123, Maipú. Si llegás más de 15 minutos tarde, el turno puede perderse.
->
-> **Customer:** cancelar mi turno
->
-> **Assistant:** Tenés un turno para el sábado 17/10 a las 11:00 (Corte de pelo). ¿Confirmás que querés cancelarlo?
->
-> **Customer:** si
->
-> **Assistant:** Listo, Adrian, cancelé tu turno del sábado 17/10 a las 11:00. Si querés, después podemos buscarte otro horario.
-
-**Python · Flask · Claude API (tool use) · WhatsApp Cloud API · Telegram Bot API · SQLite · Ubuntu server** · *Private code.*
-
-### Voice quotes: dictate a quote, send it as a PDF
-<img src="imagenes/presupuestos-voz.jpg" alt="Quote PDF made by the app" width="520">
-
-For tradespeople (plumbers, electricians, gas fitters, painters). They dictate the job on their phone in everyday Argentine Spanish, the AI transcribes it and turns it into a quote with materials, labor and total, they review it and send it as a PDF over WhatsApp. It never invents prices: anything that wasn't said is left blank and highlighted. It also lists the quotes sent more than 2 days ago with no answer, with a button to follow up. Above: a sample PDF made by the app (example data).
-
-**Python · Flask · Claude API (structured outputs) · OpenAI speech-to-text · ReportLab · SQLite** · *Private code. A real excerpt: the rules that teach the AI how Argentines say amounts, and forbid made-up prices.*
-
-```python
-INSTRUCCIONES = """...
-REGLA MÁS IMPORTANTE: NUNCA inventes ni estimes precios.
-- Si un ítem no tiene un precio dicho explícitamente, poné precio_unitario en null y agregá a "faltantes" \
-algo como "Precio de: <descripción>".
-- Nunca uses precios "de mercado", promedios ni suposiciones. Solo lo que se dijo.
-
-Montos en lenguaje argentino:
-- "80 lucas" = 80000 | "una luca" = 1000 | "5 lucas" = 5000
-- "250 mil" = 250000 | "80 mil pesos" = 80000
-- "un palo" = 1000000 | "palo y medio" = 1500000 | "dos palos" = 2000000
-- "un palo doscientos" = 1200000 | "ciento veinte mil" = 120000
-..."""
-```
-
-### Restaurante Los Olivos: website for a restaurant
-[![Restaurante Los Olivos](imagenes/restaurante-los-olivos.jpg)](https://adrian884hub.github.io/restaurante-los-olivos/)
-
-Sample site for a restaurant in Mendoza: photo carousel, tabbed menu, reservations sent through WhatsApp and mobile-first design. Includes test cases and bug reports (QA).
-
-**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/restaurante-los-olivos/) · [Code](https://github.com/adrian884hub/restaurante-los-olivos)
-
-### 30 Keto Recipes: ebook sales landing page
-[![30 Keto Recipes](imagenes/recetas-keto.jpg)](https://adrian884hub.github.io/recetas-keto/)
-
-Sales page for a recipe ebook, designed to turn visits into purchases.
-
-**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/recetas-keto/) · [Code](https://github.com/adrian884hub/recetas-keto)
-
-### Mendu Market help center
-[![Help center](imagenes/faq-mendu-market.jpg)](https://adrian884hub.github.io/faq-mendumarket./)
-
-Frequently asked questions about payments, shipping and returns for the Mendu Market online store, with WhatsApp contact.
-
-**HTML · CSS · JavaScript** · [View the page](https://adrian884hub.github.io/faq-mendumarket./) · [Code](https://github.com/adrian884hub/faq-mendumarket.)
-
-### TradingView indicators
-![Zonas Rebote + Volumen indicator running on TradingView](imagenes/indicador-tradingview.jpg)
-
-Two technical analysis indicators in Pine Script: automatic support and resistance detection with scoring, volume profile, buy and sell signals by confluence, automatic Stop Loss and Take Profit, and a price heat map.
-
-**Pine Script v5** · [Bounce Zones + Volume](https://github.com/adrian884hub/indicador-zonas-rebote-volumen) · [SR Confluence + Heat Map](https://github.com/adrian884hub/indicadores-tradingview-1-)
-
-### Game Booster: PC cleaner and optimizer
-<img src="imagenes/game-booster.png" alt="Game Booster icon" width="160">
-
-Desktop program that prepares the PC for gaming: cleans temporary files, closes background processes and frees memory with a single button.
-
-**Python · Tkinter · PyInstaller** · [Code](https://github.com/adrian884hub/game-booster)
-
----
-
-## What I do
-
-- Websites and sales pages
-- Platforms with online payments (Mercado Pago)
-- Python tools and automation
-- Artificial intelligence integrations (Claude, OpenAI)
-- WhatsApp assistants with AI (official WhatsApp Cloud API)
-- Digital and content marketing for social media
-- TradingView indicators (Pine Script)
-
-## Contact
-
-**Available for projects and work.** Get in touch and let's talk.
-
-- Email: [adrianpereyra884@gmail.com](mailto:adrianpereyra884@gmail.com)
-- WhatsApp: [+54 261 637-3263](https://wa.me/542616373263)
+Una página, una tienda, un bot de WhatsApp o el marketing de tus redes. **Escribime por [WhatsApp](https://wa.me/542616373263) o a [adrianpereyra884@gmail.com](mailto:adrianpereyra884@gmail.com)** y lo charlamos.
