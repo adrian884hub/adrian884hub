@@ -41,6 +41,78 @@ export type TipoLectura =
   | "sin_importe"; // promotions and notices: ignored
 ```
 
+### Mendu bot: 24/7 WhatsApp assistant for my stores
+
+Answers customers of my online store and of MenduEbook on WhatsApp, day and night. It replies from real FAQs taken from both websites and doesn't make things up. When someone needs a person (a complaint, a quote, a job offer), the AI collects their name and reason and I get a Telegram alert with a one-tap link to reply. It uses the official WhatsApp Cloud API and runs on my own server with HTTPS.
+
+**Try it:** [message the bot on WhatsApp](https://wa.me/5492612344712)
+
+**Python · Flask · Claude API (tool use) · WhatsApp Cloud API · Telegram Bot API · SQLite · Ubuntu server** · *Private code. A real excerpt: the tool the AI uses to hand a conversation over to me.*
+
+```python
+HERRAMIENTAS = [
+    {
+        "name": "avisar_a_adrian",
+        "description": ("Le avisa a Adrián para que responda él. Usala si no sabés la respuesta, si hay una "
+                        "queja o un problema con una compra, si piden presupuesto, si alguien quiere una "
+                        "página, un bot o marketing, si es un reclutador, o si piden hablar con una persona."),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "motivo": {"type": "string", "description": "Resumen corto de lo que necesita"},
+                "area": {"type": "string", "enum": AREAS,
+                         "description": "mendumarket = tienda, menduebook = ebooks, "
+                                        "servicios = páginas, bots, marketing o trabajo, otro = lo demás"},
+                "nombre": {"type": "string", "description": "Nombre de la persona, si lo dijo"},
+            },
+            "required": ["motivo", "area"],
+        },
+    },
+]
+```
+
+### Booking assistant for barbershops on WhatsApp
+
+A WhatsApp assistant for barbershops and hair salons. It answers prices and opening hours, books, checks and cancels appointments on its own, and alerts the owner on Telegram when a customer asks for a person. The program, not the AI, calculates the free time slots, so it never offers a time that is already taken. Every incoming message is checked against Meta's signature. It runs on my server with a demo business, ready for its first salon.
+
+A real test conversation (in Spanish):
+
+> **Customer:** quiero un turno para corte el sábado a las 11, soy adrian
+>
+> **Assistant:** ¡Listo, Adrian! Tu turno quedó reservado para el sábado 17/10 a las 11:00 para Corte de pelo, con un precio de $8.000. Te esperamos en Calle Ejemplo 123, Maipú. Si llegás más de 15 minutos tarde, el turno puede perderse.
+>
+> **Customer:** cancelar mi turno
+>
+> **Assistant:** Tenés un turno para el sábado 17/10 a las 11:00 (Corte de pelo). ¿Confirmás que querés cancelarlo?
+>
+> **Customer:** si
+>
+> **Assistant:** Listo, Adrian, cancelé tu turno del sábado 17/10 a las 11:00. Si querés, después podemos buscarte otro horario.
+
+**Python · Flask · Claude API (tool use) · WhatsApp Cloud API · Telegram Bot API · SQLite · Ubuntu server** · *Private code.*
+
+### Voice quotes: dictate a quote, send it as a PDF
+<img src="imagenes/presupuestos-voz.jpg" alt="Quote PDF made by the app" width="520">
+
+For tradespeople (plumbers, electricians, gas fitters, painters). They dictate the job on their phone in everyday Argentine Spanish, the AI transcribes it and turns it into a quote with materials, labor and total, they review it and send it as a PDF over WhatsApp. It never invents prices: anything that wasn't said is left blank and highlighted. It also lists the quotes sent more than 2 days ago with no answer, with a button to follow up. Above: a sample PDF made by the app (example data).
+
+**Python · Flask · Claude API (structured outputs) · OpenAI speech-to-text · ReportLab · SQLite** · *Private code. A real excerpt: the rules that teach the AI how Argentines say amounts, and forbid made-up prices.*
+
+```python
+INSTRUCCIONES = """...
+REGLA MÁS IMPORTANTE: NUNCA inventes ni estimes precios.
+- Si un ítem no tiene un precio dicho explícitamente, poné precio_unitario en null y agregá a "faltantes" \
+algo como "Precio de: <descripción>".
+- Nunca uses precios "de mercado", promedios ni suposiciones. Solo lo que se dijo.
+
+Montos en lenguaje argentino:
+- "80 lucas" = 80000 | "una luca" = 1000 | "5 lucas" = 5000
+- "250 mil" = 250000 | "80 mil pesos" = 80000
+- "un palo" = 1000000 | "palo y medio" = 1500000 | "dos palos" = 2000000
+- "un palo doscientos" = 1200000 | "ciento veinte mil" = 120000
+..."""
+```
+
 ### Restaurante Los Olivos: website for a restaurant
 [![Restaurante Los Olivos](imagenes/restaurante-los-olivos.jpg)](https://adrian884hub.github.io/restaurante-los-olivos/)
 
@@ -84,6 +156,7 @@ Desktop program that prepares the PC for gaming: cleans temporary files, closes 
 - Platforms with online payments (Mercado Pago)
 - Python tools and automation
 - Artificial intelligence integrations (Claude, OpenAI)
+- WhatsApp assistants with AI (official WhatsApp Cloud API)
 - Digital and content marketing for social media
 - TradingView indicators (Pine Script)
 
