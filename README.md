@@ -8,7 +8,9 @@ Mendoza, Argentina
 
 ---
 
-## Featured project: MenduEbook
+## Featured projects
+
+### MenduEbook: AI ebooks ready to sell
 
 [![MenduEbook](imagenes/menduebook.jpg)](https://mendumarket.com.ar)
 
@@ -18,9 +20,26 @@ Mendoza, Argentina
 
 [Visit the site](https://mendumarket.com.ar) · [Screenshots, examples and code](https://github.com/adrian884hub/mendu-market-portfolio)
 
+### Mendu Market: online store built from scratch
+
+[![Mendu Market online store](imagenes/mendumarket-tienda.jpg)](https://mendumarket.com)
+
+**An online store with more than 5,800 products from wholesalers, kept up to date automatically, with Mercado Pago payments and a back office to run the business.** Customers search with instant suggestions, add to the cart and pay without creating an account. The owner passes each order to the wholesaler with one click, and the tracking number reaches the customer by email on its own. Mobile-first, with dark mode.
+
+**Python · Flask · Tailwind CSS · SQLite · Mercado Pago · Wholesaler REST API · Ubuntu server · Nginx**
+
+[Visit the store](https://mendumarket.com) · [Screenshots and details](https://github.com/adrian884hub/mendumarket-tienda-portfolio)
+
 ---
 
 ## Other projects
+
+### Social post generator: from a book to posts and videos
+[![Social post generator](imagenes/generador-publicaciones.jpg)](https://github.com/adrian884hub/mendumarket-generador-publicaciones)
+
+An in-house tool for MenduEbook that turns a PDF book into posts ready for social media in a few minutes: feed and story images, vertical videos for Reels and TikTok with an Argentine-accent voice-over and music, and the copy for each network.
+
+**Python · Flask · OpenAI (text and images) · Pillow · FFmpeg** · [Examples and videos](https://github.com/adrian884hub/mendumarket-generador-publicaciones)
 
 ### GastoRegistrado: automatic expense log
 ![GastoRegistrado](imagenes/gastoregistrado.jpg)
