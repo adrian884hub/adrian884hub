@@ -4,7 +4,11 @@
 
 > **In English:** Web developer in Mendoza, Argentina. I build websites, online stores, WhatsApp bots and AI-powered tools with Python, from the idea to a site running online. Open to projects and remote work.
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Escribime-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/542616373263) [![Mail](https://img.shields.io/badge/Mail-adrianpereyra884%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianpereyra884@gmail.com) [![Mi página](https://img.shields.io/badge/Mi_p%C3%A1gina-adrian884hub.github.io-24292F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adrian884hub.github.io)
+<p>
+<a href="https://wa.me/542616373263"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" height="24"></a>
+<a href="mailto:adrianpereyra884@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="24"></a>
+<a href="https://adrian884hub.github.io"><img src="https://img.shields.io/badge/P%C3%A1gina_personal-7B4FD1?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMS45OSAyQzYuNDcgMiAyIDYuNDggMiAxMnM0LjQ3IDEwIDkuOTkgMTBDMTcuNTIgMjIgMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMS45OSAyem02LjkzIDZoLTIuOTVhMTUuNjUgMTUuNjUgMCAwIDAtMS4zOC0zLjU2QTguMDMgOC4wMyAwIDAgMSAxOC45MiA4ek0xMiA0LjA0Yy44MyAxLjIgMS40OCAyLjUzIDEuOTEgMy45NmgtMy44MmMuNDMtMS40MyAxLjA4LTIuNzYgMS45MS0zLjk2ek00LjI2IDE0QzQuMSAxMy4zNiA0IDEyLjY5IDQgMTJzLjEtMS4zNi4yNi0yaDMuMzhjLS4wOC42Ni0uMTQgMS4zMi0uMTQgMnMuMDYgMS4zNC4xNCAySDQuMjZ6bS44MiAyaDIuOTVjLjMyIDEuMjUuNzggMi40NSAxLjM4IDMuNTZBNy45ODcgNy45ODcgMCAwIDEgNS4wOCAxNnptMi45NS04SDUuMDhhNy45ODcgNy45ODcgMCAwIDEgNC4zMy0zLjU2QTE1LjY1IDE1LjY1IDAgMCAwIDguMDMgOHpNMTIgMTkuOTZjLS44My0xLjItMS40OC0yLjUzLTEuOTEtMy45NmgzLjgyYy0uNDMgMS40My0xLjA4IDIuNzYtMS45MSAzLjk2ek0xNC4zNCAxNEg5LjY2Yy0uMDktLjY2LS4xNi0xLjMyLS4xNi0ycy4wNy0xLjM1LjE2LTJoNC42OGMuMDkuNjUuMTYgMS4zMi4xNiAycy0uMDcgMS4zNC0uMTYgMnptLjI1IDUuNTZjLjYtMS4xMSAxLjA2LTIuMzEgMS4zOC0zLjU2aDIuOTVhOC4wMyA4LjAzIDAgMCAxLTQuMzMgMy41NnpNMTYuMzYgMTRjLjA4LS42Ni4xNC0xLjMyLjE0LTJzLS4wNi0xLjM0LS4xNC0yaDMuMzhjLjE2LjY0LjI2IDEuMzEuMjYgMnMtLjEgMS4zNi0uMjYgMmgtMy4zOHoiLz48L3N2Zz4%3D" alt="Página personal" height="24"></a>
+</p>
 
 <sub>Python · Flask · Claude · OpenAI · Next.js · Mercado Pago · WhatsApp Cloud API · HTML · CSS · JavaScript</sub>
 
@@ -63,7 +67,7 @@
 <details><summary>Ver más</summary>
 <p align="left"><sub>Responde precios y horarios, da, consulta y cancela turnos, y le avisa al dueño por Telegram cuando un cliente pide hablar con una persona. Los horarios libres los calcula el programa, así nunca ofrece uno ocupado.</sub></p>
 <p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · WhatsApp Cloud API · Telegram</sub></p>
-<p align="left"><a href="https://wa.me/542616373263?text=Hola%20Adri%C3%A1n%2C%20quiero%20probar%20el%20bot%20de%20turnos">Pedí una prueba</a></p>
+<p align="left"><a href="https://wa.me/542616373263?text=Hola%20Adri%C3%A1n%2C%20quiero%20probar%20el%20bot%20de%20turnos">Pedí una prueba</a> · Charla real: <a href="imagenes/peluqueria-charla-1.jpg">1</a> · <a href="imagenes/peluqueria-charla-2.jpg">2</a> · <a href="imagenes/peluqueria-charla-3.jpg">3</a></p>
 </details>
 </td>
 <td align="center" valign="top" width="25%">
