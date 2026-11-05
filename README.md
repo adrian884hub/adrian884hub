@@ -71,13 +71,13 @@
 </details>
 </td>
 <td align="center" valign="top" width="25%">
-<a href="imagenes/presupuestos-voz.jpg" title="Presupuestos por voz: dictás el trabajo en el celular y sale el presupuesto en PDF"><img src="imagenes/tarjetas/presupuestos-voz.jpg" alt="Presupuestos por voz" width="180"></a>
+<a href="https://presupuestos.mendumarket.com/login?next=%2Fpresupuestos" title="Presupuestos por voz: dictás el trabajo en el celular y sale el presupuesto en PDF"><img src="imagenes/tarjetas/presupuestos-voz.jpg" alt="Presupuestos por voz" width="180"></a>
 <br><b>Presupuestos por voz</b>
 <br><sub>Dictás el trabajo, sale el PDF</sub>
 <details><summary>Ver más</summary>
 <p align="left"><sub>Para plomeros, electricistas, gasistas y pintores. Dictan el trabajo en el celular, como hablan, y la IA arma el presupuesto con materiales, mano de obra y total, listo para mandar por WhatsApp. Nunca inventa precios: lo que no se dijo queda marcado.</sub></p>
 <p align="left"><sub><b>Hecho con:</b> Python · Flask · Claude · OpenAI (voz a texto) · ReportLab</sub></p>
-<p align="left"><a href="imagenes/presupuestos-voz.jpg">Ver un presupuesto de ejemplo</a></p>
+<p align="left"><a href="https://presupuestos.mendumarket.com/login?next=%2Fpresupuestos">Ver la página</a> · <a href="imagenes/presupuestos-voz.jpg">Presupuesto de ejemplo</a></p>
 </details>
 </td>
 <td align="center" valign="top" width="25%">
